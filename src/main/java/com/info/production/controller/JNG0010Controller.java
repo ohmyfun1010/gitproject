@@ -16,4 +16,9 @@ public class JNG0010Controller {
 		return "0001";
 	}
 	
+	@GetMapping("/JNF0010/0003")
+	public String commit() {
+		return "commit";
+	}
+	
 }
