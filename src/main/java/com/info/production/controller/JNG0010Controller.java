@@ -21,9 +21,4 @@ public class JNG0010Controller {
 		return "reset";
 	}
 	
-	@GetMapping("/JNF0010/0005")
-	public String revert() {
-		return "revert";
-	}
-	
 }
